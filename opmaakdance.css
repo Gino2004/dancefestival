@@ -1,0 +1,143 @@
+body{
+	font-family: Times New Roman;
+	color: white;
+	
+}	
+a {
+	color: #FFFFFF;
+	text-decoration:none;
+	padding: 10px;
+}
+a:hover{
+    background-color: #dddddd;
+	display: inline;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+	background: red  ;
+	padding: 2%;
+	font-size: 25px;
+	height: 100px;
+}
+
+body{
+	background: url(dancefestival.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#vuurwerk{
+	display: absolute;
+	 margin-left: -30px;
+	 margin-top: -30px;
+
+}
+#menu{
+	margin-top:-75px;
+	
+}
+
+
+h1{
+	color: #043CFF;
+}
+
+h2{
+	
+	color:#FFFFFF;
+}
+.spotify{
+	position:absolute;
+    top: 40px;
+    right: 10px;
+    font-size: 18px;
+	
+}
+div.foto {
+    border: 5px solid #000000;
+}
+
+
+div.foto:hover {
+    border: 10px solid #FFFFFF;
+}
+
+div.foto img {
+	float:left;
+    width: 100%;
+    height: auto;
+
+
+}
+
+div.naam {
+    padding: 2px;
+    text-align: center;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 10px;
+    float: left;
+    width: 20%;
+	
+}
+
+
+
+aside {
+    position:absolute;
+    top:200px;
+    right:20px;
+    width: 30%;
+    height:50%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top:10px;
+    float: right;
+    background: url(nederland.jpg);
+  }
+
+
+.nieuws{
+	background-color: #ff0000;
+    color: #FFFFFF;
+    padding: 1% 1%;
+    border-radius: 10px 10px;
+    text-align: left;
+	margin-top: 50px;
+	
+}
+.kaarten{
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    padding: 1% 1%;
+    border-radius: 10px 10px;
+    text-align: left;
+    position:absolute;
+    top: 250px;
+    right: 950px;
+    font-size: 18px;
+
+}
+.Overzicht{
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    padding: 1% 1%;
+    border-radius: 10px 10px;
+    text-align: left;
+    position:absolute;
+    top: 250px;
+
+    font-size: 18px;
+
+}
